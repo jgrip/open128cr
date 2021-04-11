@@ -1,0 +1,207 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP_Small
+D Polarized capacitor, small symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CTRIM
+D Trimmable capacitor
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP C_Tiny
+D Unpolarized capacitor, tiny symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Conn_01x25
+D Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_GND3
+D Three pin crystal, GND on pin 3
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP DB25_Male_MountingHoles
+D 25-pin male D-SUB connector, Mounting Hole
+K male D-SUB connector
+F  ~
+$ENDCMP
+#
+$CMP DB9_Female_MountingHoles
+D 9-pin female D-SUB connector, Mounting Hole
+K connector female D-SUB
+F  ~
+$ENDCMP
+#
+$CMP DB9_Male_MountingHoles
+D 9-pin male D-SUB connector, Mounting Hole
+K connector male D-SUB
+F  ~
+$ENDCMP
+#
+$CMP D_Bridge
+D Diode bridge, +ve/AC/-ve/AC
+K rectifier ACDC
+F ~
+$ENDCMP
+#
+$CMP D_Small
+D Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP Jumper_2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_3_Open
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP L_Small
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP MountingHole_Pad
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP Power_switch
+D Double Pole Single Throw (DPST) Switch
+K switch dual double-pole single-throw OFF-ON
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECB
+D NPN transistor, emitter/collector/base
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Network07_Split
+D 7 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network08_Split
+D 8 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network09
+D 9 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network09_Split
+D 9 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack04_SIP_Split
+D 4 resistor network (split), parallel topology, isolated resistors, SIP package, small symbol
+K R network parallel-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_small
+D Resistor, small symbol
+K R resistor
+F ~
+$ENDCMP
+#
+$CMP Reset_Switch
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Open
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+#End Doc Library

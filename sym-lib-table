@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 128CR-rescue)(type Legacy)(uri ${KIPRJMOD}/128CR-rescue.lib)(options "")(descr ""))
+  (lib (name C128)(type Legacy)(uri ${KIPRJMOD}/Libraries/C128.lib)(options "")(descr ""))
+  (lib (name Power)(type Legacy)(uri ${KIPRJMOD}/Libraries/Power.lib)(options "")(descr ""))
+  (lib (name Devices)(type Legacy)(uri ${KIPRJMOD}/Libraries/Devices.lib)(options "")(descr ""))
+  (lib (name Logic)(type Legacy)(uri ${KIPRJMOD}/Libraries/Logic.lib)(options "")(descr ""))
+)

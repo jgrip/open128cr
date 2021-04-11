@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C128:Conn_02x06_Edge CN2
+U 1 1 602F31F6
+P 9200 2850
+F 0 "CN2" H 9250 3175 50  0000 C CNN
+F 1 "Conn_02x06_Row_Letter_Last" H 9250 3176 50  0001 C CNN
+F 2 "C128:CASSETTEPORT" H 9200 2850 50  0001 C CNN
+F 3 "~" H 9200 2850 50  0001 C CNN
+	1    9200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power:GND #PWR0141
+U 1 1 602FB3DE
+P 9250 3350
+F 0 "#PWR0141" H 9250 3100 50  0001 C CNN
+F 1 "GND" H 9255 3177 50  0000 C CNN
+F 2 "" H 9250 3350 50  0001 C CNN
+F 3 "" H 9250 3350 50  0001 C CNN
+	1    9250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2650 8900 2650
+Wire Wire Line
+	8900 2650 8900 3350
+Wire Wire Line
+	8900 3350 9250 3350
+Wire Wire Line
+	9250 3350 9600 3350
+Wire Wire Line
+	9600 3350 9600 2650
+Wire Wire Line
+	9600 2650 9500 2650
+Connection ~ 9250 3350
+Wire Wire Line
+	9000 2750 8950 2750
+Wire Wire Line
+	8950 2750 8950 2400
+Wire Wire Line
+	8950 2400 9250 2400
+Wire Wire Line
+	9550 2400 9550 2750
+Wire Wire Line
+	9550 2750 9500 2750
+$Comp
+L Power:+5V #PWR0158
+U 1 1 602FBC51
+P 9250 2350
+F 0 "#PWR0158" H 9250 2200 50  0001 C CNN
+F 1 "+5V" H 9265 2523 50  0000 C CNN
+F 2 "" H 9250 2350 50  0001 C CNN
+F 3 "" H 9250 2350 50  0001 C CNN
+	1    9250 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2350 9250 2400
+Connection ~ 9250 2400
+Wire Wire Line
+	9250 2400 9550 2400
+Wire Wire Line
+	9000 2850 8050 2850
+Wire Wire Line
+	9000 2950 8050 2950
+Wire Wire Line
+	9000 3050 8050 3050
+Wire Wire Line
+	9000 3150 8050 3150
+$Comp
+L Devices:C_Tiny C72
+U 1 1 602FFC0F
+P 8250 3200
+F 0 "C72" V 8250 2900 50  0000 C CNN
+F 1 "72 pF" V 8250 3550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8250 3200 50  0001 C CNN
+F 3 "~" H 8250 3200 50  0001 C CNN
+	1    8250 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 3200 8050 3200
+Wire Wire Line
+	8050 3200 8050 3150
+Connection ~ 8050 3150
+Wire Wire Line
+	8050 3150 7150 3150
+$Comp
+L Devices:C_Tiny C73
+U 1 1 60300B67
+P 8250 3100
+F 0 "C73" V 8250 2800 50  0000 C CNN
+F 1 "72 pF" V 8250 3450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Devices:C_Tiny C75
+U 1 1 60300D2C
+P 8250 3000
+F 0 "C75" V 8250 2700 50  0000 C CNN
+F 1 "72 pF" V 8250 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8250 3000 50  0001 C CNN
+F 3 "~" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 3050 8050 3100
+Wire Wire Line
+	8050 3100 8150 3100
+Connection ~ 8050 3050
+Wire Wire Line
+	8050 2950 8050 3000
+Wire Wire Line
+	8050 3000 8150 3000
+Connection ~ 8050 2950
+Wire Wire Line
+	8050 2950 6450 2950
+Wire Wire Line
+	8350 3000 8450 3000
+Wire Wire Line
+	8450 3000 8450 3100
+Wire Wire Line
+	8350 3200 8450 3200
+Connection ~ 8450 3200
+Wire Wire Line
+	8450 3200 8450 3350
+Wire Wire Line
+	8350 3100 8450 3100
+Connection ~ 8450 3100
+Wire Wire Line
+	8450 3100 8450 3200
+$Comp
+L Power:GND #PWR04
+U 1 1 60302733
+P 8450 3350
+F 0 "#PWR04" H 8450 3100 50  0001 C CNN
+F 1 "GND" H 8455 3177 50  0000 C CNN
+F 2 "" H 8450 3350 50  0001 C CNN
+F 3 "" H 8450 3350 50  0001 C CNN
+	1    8450 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 3150 0    59   Input ~ 0
+CASS_SENSE
+Wire Wire Line
+	9000 3150 9500 3150
+Connection ~ 9000 3150
+Wire Wire Line
+	7650 3050 8050 3050
+$Comp
+L Devices:R R4
+U 1 1 6030CDC8
+P 7500 3050
+F 0 "R4" V 7450 3250 50  0000 C CNN
+F 1 "100" V 7500 3050 50  0000 C CNN
+F 2 "C128:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal" V 7430 3050 50  0001 C CNN
+F 3 "~" H 7500 3050 50  0001 C CNN
+	1    7500 3050
+	0    1    1    0   
+$EndComp
+Text GLabel 7150 3050 0    59   Input ~ 0
+CASS_WRT
+Wire Wire Line
+	7150 3050 7350 3050
+$Comp
+L Devices:Q_NPN_ECB Q3
+U 1 1 60310383
+P 7950 2650
+F 0 "Q3" H 8140 2696 50  0000 L CNN
+F 1 "2SD880" H 8140 2605 50  0000 L CNN
+F 2 "C128:TO-220-3_Horizontal_TabDown_NoHole" H 8150 2750 50  0001 C CNN
+F 3 "~" H 7950 2650 50  0001 C CNN
+	1    7950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power:UNREG+9V #PWR0162
+U 1 1 60311171
+P 7800 2100
+F 0 "#PWR0162" H 7800 1950 50  0001 C CNN
+F 1 "UNREG+9V" H 7815 2273 50  0000 C CNN
+F 2 "" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devices:R R5
+U 1 1 603159F8
+P 7550 2400
+F 0 "R5" H 7650 2500 50  0000 C CNN
+F 1 "100" V 7550 2400 50  0000 C CNN
+F 2 "C128:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal" V 7480 2400 50  0001 C CNN
+F 3 "~" H 7550 2400 50  0001 C CNN
+	1    7550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2250 7550 2100
+Wire Wire Line
+	7550 2100 7800 2100
+Wire Wire Line
+	7800 2100 8050 2100
+Wire Wire Line
+	8050 2100 8050 2450
+Wire Wire Line
+	7750 2650 7550 2650
+Wire Wire Line
+	7550 2550 7550 2650
+Connection ~ 7550 2650
+Wire Wire Line
+	7550 2650 7250 2650
+Connection ~ 7800 2100
+$EndSCHEMATC

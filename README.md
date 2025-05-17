@@ -1,3 +1,5 @@
+## Migrated to codeberg <https://codeberg.org/jgrip/Open128CR>
+
 # Open128CR
 
 This is a clone of the Commodore 128 CR home computer made with KiCad, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
